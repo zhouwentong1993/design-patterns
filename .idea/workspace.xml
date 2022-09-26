@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27eee9e5-85a7-433f-afd2-233fe03cab8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wentong/patterns/state/LockedTurnstileState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wentong/patterns/state/Turnstile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wentong/patterns/state/TurnstileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wentong/patterns/state/TurnstileState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wentong/patterns/state/UnLockedTurnstileState.java" afterDir="false" />
+    <list default="true" id="27eee9e5-85a7-433f-afd2-233fe03cab8f" name="Changes" comment="设计模式--状态模式">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wentong/patterns/state/TestTurnstile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wentong/patterns/state/LockedTurnstileState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wentong/patterns/state/LockedTurnstileState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wentong/patterns/state/UnLockedTurnstileState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wentong/patterns/state/UnLockedTurnstileState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +45,101 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.TestTurnstile">
+    <configuration name="TestTurnstile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wentong.patterns.state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wentong.patterns.state" />
+      <option name="MAIN_CLASS_NAME" value="com.wentong.patterns.state.TestTurnstile" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTurnstile.testCoinInLockedState" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wentong.patterns.state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wentong.patterns.state" />
+      <option name="MAIN_CLASS_NAME" value="com.wentong.patterns.state.TestTurnstile" />
+      <option name="METHOD_NAME" value="testCoinInLockedState" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTurnstile.testCoinInUnLockState" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wentong.patterns.state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wentong.patterns.state" />
+      <option name="MAIN_CLASS_NAME" value="com.wentong.patterns.state.TestTurnstile" />
+      <option name="METHOD_NAME" value="testCoinInUnLockState" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTurnstile.testInitialConditions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wentong.patterns.state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wentong.patterns.state" />
+      <option name="MAIN_CLASS_NAME" value="com.wentong.patterns.state.TestTurnstile" />
+      <option name="METHOD_NAME" value="testInitialConditions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTurnstile.testPassInLockState" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wentong.patterns.state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wentong.patterns.state" />
+      <option name="MAIN_CLASS_NAME" value="com.wentong.patterns.state.TestTurnstile" />
+      <option name="METHOD_NAME" value="testPassInLockState" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestTurnstile" />
+        <item itemvalue="JUnit.TestTurnstile.testPassInLockState" />
+        <item itemvalue="JUnit.TestTurnstile.testCoinInUnLockState" />
+        <item itemvalue="JUnit.TestTurnstile.testCoinInLockedState" />
+        <item itemvalue="JUnit.TestTurnstile.testInitialConditions" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,8 +148,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664206749045</updated>
-      <workItem from="1664206750433" duration="874000" />
+      <workItem from="1664206750433" duration="2647000" />
     </task>
+    <task id="LOCAL-00001" summary="设计模式--状态模式">
+      <created>1664207648145</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664207648145</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,6 +173,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="设计模式--状态模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计模式--状态模式" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/wentong/patterns/state/TestTurnstile.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
